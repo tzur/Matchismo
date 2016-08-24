@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0DD82A6F1D6C474E00C88DCB"
-               BuildableName = "ex2work.app"
-               BlueprintName = "ex2work"
-               ReferencedContainer = "container:ex2work.xcodeproj">
+               BuildableName = "Ex3.app"
+               BlueprintName = "Ex3"
+               ReferencedContainer = "container:Ex3.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0DD82A8B1D6C474E00C88DCB"
-               BuildableName = "ex2workTests.xctest"
-               BlueprintName = "ex2workTests"
-               ReferencedContainer = "container:ex2work.xcodeproj">
+               BuildableName = "Ex3.xctest"
+               BlueprintName = "Ex3Tests"
+               ReferencedContainer = "container:Ex3.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0DD82A961D6C474E00C88DCB"
-               BuildableName = "ex2workUITests.xctest"
-               BlueprintName = "ex2workUITests"
-               ReferencedContainer = "container:ex2work.xcodeproj">
+               BuildableName = "Ex3.xctest"
+               BlueprintName = "Ex3UITests"
+               ReferencedContainer = "container:Ex3.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0DD82A6F1D6C474E00C88DCB"
-            BuildableName = "ex2work.app"
-            BlueprintName = "ex2work"
-            ReferencedContainer = "container:ex2work.xcodeproj">
+            BuildableName = "Ex3.app"
+            BlueprintName = "Ex3"
+            ReferencedContainer = "container:Ex3.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0DD82A6F1D6C474E00C88DCB"
-            BuildableName = "ex2work.app"
-            BlueprintName = "ex2work"
-            ReferencedContainer = "container:ex2work.xcodeproj">
+            BuildableName = "Ex3.app"
+            BlueprintName = "Ex3"
+            ReferencedContainer = "container:Ex3.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0DD82A6F1D6C474E00C88DCB"
-            BuildableName = "ex2work.app"
-            BlueprintName = "ex2work"
-            ReferencedContainer = "container:ex2work.xcodeproj">
+            BuildableName = "Ex3.app"
+            BlueprintName = "Ex3"
+            ReferencedContainer = "container:Ex3.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -16,6 +16,11 @@
 		0DD82A861D6C474E00C88DCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DD82A841D6C474E00C88DCB /* LaunchScreen.storyboard */; };
 		0DD82A911D6C474E00C88DCB /* ex2workTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD82A901D6C474E00C88DCB /* ex2workTests.m */; };
 		0DD82A9C1D6C474E00C88DCB /* ex2workUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD82A9B1D6C474E00C88DCB /* ex2workUITests.m */; };
+		0DD82AAB1D6C476A00C88DCB /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD82AAA1D6C476A00C88DCB /* Card.m */; };
+		0DD82AB11D6C47A400C88DCB /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD82AB01D6C47A400C88DCB /* Deck.m */; };
+		0DD82AB41D6C47B200C88DCB /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD82AB31D6C47B200C88DCB /* CardMatchingGame.m */; };
+		0DD82AB81D6C480900C88DCB /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD82AB71D6C480900C88DCB /* PlayingCardDeck.m */; };
+		0DD82ABB1D6C481A00C88DCB /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD82ABA1D6C481A00C88DCB /* PlayingCard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0DD82A701D6C474E00C88DCB /* ex2work.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ex2work.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD82A701D6C474E00C88DCB /* Ex3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ex3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DD82A741D6C474E00C88DCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0DD82A761D6C474E00C88DCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0DD82A771D6C474E00C88DCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -47,12 +52,22 @@
 		0DD82A821D6C474E00C88DCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DD82A851D6C474E00C88DCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DD82A871D6C474E00C88DCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0DD82A8C1D6C474E00C88DCB /* ex2workTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ex2workTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD82A8C1D6C474E00C88DCB /* Ex3.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ex3.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DD82A901D6C474E00C88DCB /* ex2workTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ex2workTests.m; sourceTree = "<group>"; };
 		0DD82A921D6C474E00C88DCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0DD82A971D6C474E00C88DCB /* ex2workUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ex2workUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD82A971D6C474E00C88DCB /* Ex3.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ex3.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DD82A9B1D6C474E00C88DCB /* ex2workUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ex2workUITests.m; sourceTree = "<group>"; };
 		0DD82A9D1D6C474E00C88DCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DD82AA91D6C476A00C88DCB /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		0DD82AAA1D6C476A00C88DCB /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		0DD82AAF1D6C47A400C88DCB /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		0DD82AB01D6C47A400C88DCB /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		0DD82AB21D6C47B200C88DCB /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardMatchingGame.h; sourceTree = "<group>"; };
+		0DD82AB31D6C47B200C88DCB /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardMatchingGame.m; sourceTree = "<group>"; };
+		0DD82AB61D6C480900C88DCB /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		0DD82AB71D6C480900C88DCB /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+		0DD82AB91D6C481A00C88DCB /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		0DD82ABA1D6C481A00C88DCB /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,9 +108,9 @@
 		0DD82A711D6C474E00C88DCB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0DD82A701D6C474E00C88DCB /* ex2work.app */,
-				0DD82A8C1D6C474E00C88DCB /* ex2workTests.xctest */,
-				0DD82A971D6C474E00C88DCB /* ex2workUITests.xctest */,
+				0DD82A701D6C474E00C88DCB /* Ex3.app */,
+				0DD82A8C1D6C474E00C88DCB /* Ex3.xctest */,
+				0DD82A971D6C474E00C88DCB /* Ex3.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,8 +118,7 @@
 		0DD82A721D6C474E00C88DCB /* ex2work */ = {
 			isa = PBXGroup;
 			children = (
-				0DD82A761D6C474E00C88DCB /* AppDelegate.h */,
-				0DD82A771D6C474E00C88DCB /* AppDelegate.m */,
+				0DD82AB51D6C47C300C88DCB /* Model */,
 				0DD82A791D6C474E00C88DCB /* ViewController.h */,
 				0DD82A7A1D6C474E00C88DCB /* ViewController.m */,
 				0DD82A7C1D6C474E00C88DCB /* Main.storyboard */,
@@ -120,6 +134,8 @@
 		0DD82A731D6C474E00C88DCB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0DD82A761D6C474E00C88DCB /* AppDelegate.h */,
+				0DD82A771D6C474E00C88DCB /* AppDelegate.m */,
 				0DD82A741D6C474E00C88DCB /* main.m */,
 			);
 			name = "Supporting Files";
@@ -143,12 +159,29 @@
 			path = ex2workUITests;
 			sourceTree = "<group>";
 		};
+		0DD82AB51D6C47C300C88DCB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0DD82AA91D6C476A00C88DCB /* Card.h */,
+				0DD82AAA1D6C476A00C88DCB /* Card.m */,
+				0DD82AAF1D6C47A400C88DCB /* Deck.h */,
+				0DD82AB01D6C47A400C88DCB /* Deck.m */,
+				0DD82AB21D6C47B200C88DCB /* CardMatchingGame.h */,
+				0DD82AB31D6C47B200C88DCB /* CardMatchingGame.m */,
+				0DD82AB61D6C480900C88DCB /* PlayingCardDeck.h */,
+				0DD82AB71D6C480900C88DCB /* PlayingCardDeck.m */,
+				0DD82AB91D6C481A00C88DCB /* PlayingCard.h */,
+				0DD82ABA1D6C481A00C88DCB /* PlayingCard.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0DD82A6F1D6C474E00C88DCB /* ex2work */ = {
+		0DD82A6F1D6C474E00C88DCB /* Ex3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0DD82AA01D6C474E00C88DCB /* Build configuration list for PBXNativeTarget "ex2work" */;
+			buildConfigurationList = 0DD82AA01D6C474E00C88DCB /* Build configuration list for PBXNativeTarget "Ex3" */;
 			buildPhases = (
 				0DD82A6C1D6C474E00C88DCB /* Sources */,
 				0DD82A6D1D6C474E00C88DCB /* Frameworks */,
@@ -158,14 +191,14 @@
 			);
 			dependencies = (
 			);
-			name = ex2work;
+			name = Ex3;
 			productName = ex2work;
-			productReference = 0DD82A701D6C474E00C88DCB /* ex2work.app */;
+			productReference = 0DD82A701D6C474E00C88DCB /* Ex3.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0DD82A8B1D6C474E00C88DCB /* ex2workTests */ = {
+		0DD82A8B1D6C474E00C88DCB /* Ex3Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0DD82AA31D6C474E00C88DCB /* Build configuration list for PBXNativeTarget "ex2workTests" */;
+			buildConfigurationList = 0DD82AA31D6C474E00C88DCB /* Build configuration list for PBXNativeTarget "Ex3Tests" */;
 			buildPhases = (
 				0DD82A881D6C474E00C88DCB /* Sources */,
 				0DD82A891D6C474E00C88DCB /* Frameworks */,
@@ -176,14 +209,14 @@
 			dependencies = (
 				0DD82A8E1D6C474E00C88DCB /* PBXTargetDependency */,
 			);
-			name = ex2workTests;
+			name = Ex3Tests;
 			productName = ex2workTests;
-			productReference = 0DD82A8C1D6C474E00C88DCB /* ex2workTests.xctest */;
+			productReference = 0DD82A8C1D6C474E00C88DCB /* Ex3.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0DD82A961D6C474E00C88DCB /* ex2workUITests */ = {
+		0DD82A961D6C474E00C88DCB /* Ex3UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0DD82AA61D6C474E00C88DCB /* Build configuration list for PBXNativeTarget "ex2workUITests" */;
+			buildConfigurationList = 0DD82AA61D6C474E00C88DCB /* Build configuration list for PBXNativeTarget "Ex3UITests" */;
 			buildPhases = (
 				0DD82A931D6C474E00C88DCB /* Sources */,
 				0DD82A941D6C474E00C88DCB /* Frameworks */,
@@ -194,9 +227,9 @@
 			dependencies = (
 				0DD82A991D6C474E00C88DCB /* PBXTargetDependency */,
 			);
-			name = ex2workUITests;
+			name = Ex3UITests;
 			productName = ex2workUITests;
-			productReference = 0DD82A971D6C474E00C88DCB /* ex2workUITests.xctest */;
+			productReference = 0DD82A971D6C474E00C88DCB /* Ex3.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -221,7 +254,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0DD82A6B1D6C474E00C88DCB /* Build configuration list for PBXProject "ex2work" */;
+			buildConfigurationList = 0DD82A6B1D6C474E00C88DCB /* Build configuration list for PBXProject "Ex3" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -234,9 +267,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0DD82A6F1D6C474E00C88DCB /* ex2work */,
-				0DD82A8B1D6C474E00C88DCB /* ex2workTests */,
-				0DD82A961D6C474E00C88DCB /* ex2workUITests */,
+				0DD82A6F1D6C474E00C88DCB /* Ex3 */,
+				0DD82A8B1D6C474E00C88DCB /* Ex3Tests */,
+				0DD82A961D6C474E00C88DCB /* Ex3UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -273,7 +306,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DD82AB11D6C47A400C88DCB /* Deck.m in Sources */,
+				0DD82AB81D6C480900C88DCB /* PlayingCardDeck.m in Sources */,
+				0DD82AAB1D6C476A00C88DCB /* Card.m in Sources */,
+				0DD82ABB1D6C481A00C88DCB /* PlayingCard.m in Sources */,
 				0DD82A7B1D6C474E00C88DCB /* ViewController.m in Sources */,
+				0DD82AB41D6C47B200C88DCB /* CardMatchingGame.m in Sources */,
 				0DD82A781D6C474E00C88DCB /* AppDelegate.m in Sources */,
 				0DD82A811D6C474E00C88DCB /* ex2work.xcdatamodeld in Sources */,
 				0DD82A751D6C474E00C88DCB /* main.m in Sources */,
@@ -301,12 +339,12 @@
 /* Begin PBXTargetDependency section */
 		0DD82A8E1D6C474E00C88DCB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0DD82A6F1D6C474E00C88DCB /* ex2work */;
+			target = 0DD82A6F1D6C474E00C88DCB /* Ex3 */;
 			targetProxy = 0DD82A8D1D6C474E00C88DCB /* PBXContainerItemProxy */;
 		};
 		0DD82A991D6C474E00C88DCB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0DD82A6F1D6C474E00C88DCB /* ex2work */;
+			target = 0DD82A6F1D6C474E00C88DCB /* Ex3 */;
 			targetProxy = 0DD82A981D6C474E00C88DCB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -420,7 +458,7 @@
 				INFOPLIST_FILE = ex2work/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lightricks.ex2work;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Ex3;
 			};
 			name = Debug;
 		};
@@ -431,7 +469,7 @@
 				INFOPLIST_FILE = ex2work/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lightricks.ex2work;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Ex3;
 			};
 			name = Release;
 		};
@@ -442,8 +480,8 @@
 				INFOPLIST_FILE = ex2workTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lightricks.ex2workTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ex2work.app/ex2work";
+				PRODUCT_NAME = Ex3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ex3.app/Ex3";
 			};
 			name = Debug;
 		};
@@ -454,8 +492,8 @@
 				INFOPLIST_FILE = ex2workTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lightricks.ex2workTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ex2work.app/ex2work";
+				PRODUCT_NAME = Ex3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ex3.app/Ex3";
 			};
 			name = Release;
 		};
@@ -465,7 +503,7 @@
 				INFOPLIST_FILE = ex2workUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lightricks.ex2workUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Ex3;
 				TEST_TARGET_NAME = ex2work;
 			};
 			name = Debug;
@@ -476,7 +514,7 @@
 				INFOPLIST_FILE = ex2workUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lightricks.ex2workUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Ex3;
 				TEST_TARGET_NAME = ex2work;
 			};
 			name = Release;
@@ -484,7 +522,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0DD82A6B1D6C474E00C88DCB /* Build configuration list for PBXProject "ex2work" */ = {
+		0DD82A6B1D6C474E00C88DCB /* Build configuration list for PBXProject "Ex3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0DD82A9E1D6C474E00C88DCB /* Debug */,
@@ -493,29 +531,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0DD82AA01D6C474E00C88DCB /* Build configuration list for PBXNativeTarget "ex2work" */ = {
+		0DD82AA01D6C474E00C88DCB /* Build configuration list for PBXNativeTarget "Ex3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0DD82AA11D6C474E00C88DCB /* Debug */,
 				0DD82AA21D6C474E00C88DCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		0DD82AA31D6C474E00C88DCB /* Build configuration list for PBXNativeTarget "ex2workTests" */ = {
+		0DD82AA31D6C474E00C88DCB /* Build configuration list for PBXNativeTarget "Ex3Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0DD82AA41D6C474E00C88DCB /* Debug */,
 				0DD82AA51D6C474E00C88DCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		0DD82AA61D6C474E00C88DCB /* Build configuration list for PBXNativeTarget "ex2workUITests" */ = {
+		0DD82AA61D6C474E00C88DCB /* Build configuration list for PBXNativeTarget "Ex3UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0DD82AA71D6C474E00C88DCB /* Debug */,
 				0DD82AA81D6C474E00C88DCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
