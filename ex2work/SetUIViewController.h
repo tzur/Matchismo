@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DeckViewController.h"
 
-@interface SetUIViewController : UIViewController
+@interface SetUIViewController : DeckViewController
 
 @end
