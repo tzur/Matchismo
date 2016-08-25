@@ -55,8 +55,10 @@ static const int MATCHED = 11;
 }
 -(NSMutableDictionary *)gameStatus{
     
-    if (!_gameStatus)   _gameStatus = [[NSMutableDictionary alloc] initWithDictionary:@{[CardMatchingGame scoreKeyForGameStatus]:[[NSNumber alloc] initWithInt:0],
-                                                                                          [CardMatchingGame cardsAmountKeyForGameStatus]:[[NSNumber alloc] initWithInteger:self.amountOfMatchingCards]}];
+    if (!_gameStatus) _gameStatus = [[NSMutableDictionary alloc]
+                                       initWithDictionary:
+                                       @{[CardMatchingGame scoreKeyForGameStatus]:[[NSNumber alloc] initWithInt:0],
+                                       [CardMatchingGame cardsAmountKeyForGameStatus]:[[NSNumber alloc] initWithInteger:self.amountOfMatchingCards]}];
     return _gameStatus;
 }
 
@@ -132,7 +134,7 @@ static const int MATCHED = 11;
 - (void)updateGameStatus:(int)matchScore chosenCards:(NSArray *)cards lastAction:(int)action{
     self.gameStatus[[CardMatchingGame cardsAmountKeyForGameStatus]] = [[NSNumber alloc] initWithLong:self.amountOfMatchingCards - self.chosenCardsCounter];
     self.gameStatus[[CardMatchingGame scoreKeyForGameStatus]] = [[NSNumber alloc] initWithInt:matchScore];
-    self.gameStatus[[CardMatchingGame chosenCardsKeyForGameStatus]] = [cards copy];
+    self.gameStatus[[CardMatchingGame chosenCardsKeyForGameStatus]] = [cards copy]; // take a copy of cards, so it wont be changed when self.chosenCards changes.
     self.gameStatus[[CardMatchingGame actionKeyForGameStatus]] = [[NSNumber alloc] initWithInt:action];
 }
 

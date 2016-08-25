@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Playing Card Deck View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="PlayingCardDeckViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -187,19 +187,6 @@
                                 </variation>
                                 <connections>
                                     <action selector="touchCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BPL-GB-byN"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="km4-SF-ST0">
-                                <rect key="frame" x="170" y="43" width="98" height="133"/>
-                                <state key="normal" backgroundImage="stanford"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="109" y="15" width="98" height="133"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="203" y="236" width="64" height="86"/>
-                                </variation>
-                                <connections>
-                                    <action selector="touchCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HTb-cq-0SB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A1X-wl-dJi">
@@ -462,6 +449,19 @@
                                     <action selector="touchCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nch-u9-4Zh"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="km4-SF-ST0">
+                                <rect key="frame" x="170" y="43" width="98" height="133"/>
+                                <state key="normal" backgroundImage="stanford"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="109" y="15" width="98" height="133"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="203" y="236" width="64" height="86"/>
+                                </variation>
+                                <connections>
+                                    <action selector="touchCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HTb-cq-0SB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.61690880406263904" green="0.77349958551553866" blue="0.78705824607329844" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
@@ -481,7 +481,6 @@
                                 <exclude reference="IyW-aj-daK"/>
                                 <exclude reference="vqf-no-qNF"/>
                                 <exclude reference="Qux-3x-VpE"/>
-                                <exclude reference="km4-SF-ST0"/>
                                 <exclude reference="A1X-wl-dJi"/>
                                 <exclude reference="gSy-At-FhF"/>
                                 <exclude reference="XyC-Te-dsh"/>
@@ -502,6 +501,7 @@
                                 <exclude reference="YRJ-9h-uu9"/>
                                 <exclude reference="629-ZJ-ef3"/>
                                 <exclude reference="iy3-h4-HdF"/>
+                                <exclude reference="km4-SF-ST0"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -521,7 +521,6 @@
                                 <include reference="IyW-aj-daK"/>
                                 <include reference="vqf-no-qNF"/>
                                 <include reference="Qux-3x-VpE"/>
-                                <include reference="km4-SF-ST0"/>
                                 <include reference="A1X-wl-dJi"/>
                                 <include reference="gSy-At-FhF"/>
                                 <include reference="XyC-Te-dsh"/>
@@ -542,6 +541,7 @@
                                 <include reference="YRJ-9h-uu9"/>
                                 <include reference="629-ZJ-ef3"/>
                                 <include reference="iy3-h4-HdF"/>
+                                <include reference="km4-SF-ST0"/>
                             </mask>
                         </variation>
                     </view>
@@ -554,11 +554,77 @@
                         <outletCollection property="cardButtons" destination="KSz-OL-B5j" id="jlo-sW-7jv"/>
                         <outletCollection property="cardButtons" destination="7VK-N3-f0X" id="Ndm-6O-lQe"/>
                         <outletCollection property="cardButtons" destination="T0x-lG-9Od" id="NHZ-zI-4B5"/>
+                        <outletCollection property="cardButtons" destination="Wi2-Ih-hUS" id="EKj-wG-0d9"/>
+                        <outletCollection property="cardButtons" destination="A1X-wl-dJi" id="SUN-hA-yM8"/>
+                        <outletCollection property="cardButtons" destination="IyW-aj-daK" id="MB9-hm-5Qo"/>
+                        <outletCollection property="cardButtons" destination="km4-SF-ST0" id="dJe-US-pim"/>
+                        <outletCollection property="cardButtons" destination="Qux-3x-VpE" id="RZt-vh-LFk"/>
+                        <outletCollection property="cardButtons" destination="vqf-no-qNF" id="Myz-CF-A7n"/>
+                        <outletCollection property="cardButtons" destination="gSy-At-FhF" id="Cfm-jF-9vs"/>
+                        <outletCollection property="cardButtons" destination="hKW-49-SVh" id="vv8-2t-fHc"/>
+                        <outletCollection property="cardButtons" destination="XyC-Te-dsh" id="zKi-Oo-0TC"/>
+                        <outletCollection property="cardButtons" destination="hqQ-S1-Oi5" id="Tjd-VU-e0p"/>
+                        <outletCollection property="cardButtons" destination="85d-FG-EpO" id="PAz-Tp-5RU"/>
+                        <outletCollection property="cardButtons" destination="Fms-mz-tEP" id="hA3-Tk-BNF"/>
+                        <outletCollection property="cardButtons" destination="Gkx-mo-TY7" id="qSV-Oo-Fuf"/>
+                        <outletCollection property="cardButtons" destination="ODI-r1-gdm" id="fZ5-Mx-XLq"/>
+                        <outletCollection property="cardButtons" destination="dQ4-v8-AfF" id="Es5-ah-dqT"/>
+                        <outletCollection property="cardButtons" destination="rk9-bW-e0v" id="25r-ir-K2S"/>
+                        <outletCollection property="cardButtons" destination="Qpc-pm-AND" id="ofP-DX-Ke9"/>
+                        <outletCollection property="cardButtons" destination="Rh1-1J-pTJ" id="LhE-HZ-Zcc"/>
+                        <outletCollection property="cardButtons" destination="NxN-WI-r4Z" id="Ibd-Fk-91V"/>
+                        <outletCollection property="cardButtons" destination="629-ZJ-ef3" id="d9H-cm-4Sv"/>
+                        <outletCollection property="cardButtons" destination="d4k-ZR-vd2" id="bXt-Dx-qwd"/>
+                        <outletCollection property="cardButtons" destination="YRJ-9h-uu9" id="iFB-2f-K2M"/>
+                        <outletCollection property="cardButtons" destination="rwN-tO-uAl" id="M6R-6n-WPz"/>
+                        <outletCollection property="cardButtons" destination="ylR-Oz-iFI" id="rdK-rc-bqB"/>
+                        <outletCollection property="cardButtons" destination="iy3-h4-HdF" id="exy-4i-TFj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="702" y="665"/>
+        </scene>
+        <!--SetUI View Controller-->
+        <scene sceneID="Eeq-rK-qkM">
+            <objects>
+                <viewController id="t7x-3i-cqg" customClass="SetUIViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hD1-23-FoT"/>
+                        <viewControllerLayoutGuide type="bottom" id="cNW-bL-kKH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="clH-12-019">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZS1-QX-nke">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="93" y="270" width="42" height="21"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="ZS1-QX-nke"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="ZS1-QX-nke"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="labelCheck" destination="ZS1-QX-nke" id="xbB-pR-RZx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Who-s3-vhS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1699.5" y="670.5"/>
         </scene>
     </scenes>
     <resources>

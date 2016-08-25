@@ -6,13 +6,13 @@
 //  Copyright © 2016 zur tene. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "DeckViewController.h"
 #import "PlayingCardDeck.h"
 #import "Deck.h"
 #import "CardMatchingGame.h"
 
 
-@interface ViewController ()
+@interface DeckViewController ()
 @property (nonatomic, strong) Deck *deck;
 @property (nonatomic, strong) CardMatchingGame *game;
 @property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
@@ -21,7 +21,7 @@
 @property (weak, nonatomic) IBOutlet UISwitch *switchState;
 @end
 
-@implementation ViewController
+@implementation DeckViewController
 const static int TWO_MODE = 2;
 const static int THREE_MODE = 3;
 
@@ -32,8 +32,8 @@ const static int THREE_MODE = 3;
 - (CardMatchingGame *)createGame:(NSUInteger)match{
      return [[CardMatchingGame alloc] initWithCardCountAndMatching:[self.cardButtons count] usingDeck:[self createDeck] usingMatch:match];
 }
-- (Deck *)createDeck{
-    return [[PlayingCardDeck alloc] init];
+- (Deck *)createDeck{ //interface
+    return nil;
 }
 
 
