@@ -9,22 +9,26 @@
 #import <Foundation/Foundation.h>
 #import "Card.h"
 
-#define FULL_FILL 1
-#define EMPTY_FILL 2
-#define SEMI_FILL 3
-#define RED 4
-#define GREEN 5
-#define BLUE 6
-#define TRIANGLE 7
-#define SQUARE 8
-#define CIRCLE 9
+extern int const FULL_FILL;
+extern int const EMPTY_FILL;
+extern int const SEMI_FILL;
+extern int const RED_COLOR;
+extern int const GREEN_COLOR;
+extern int const BLUE_COLOR;
+extern int const TRIANGLE_SHAPE;
+extern int const SQUARE_SHAPE;
+extern int const CIRCLE_SHAPE;
+
 
 @interface SetCard : Card
-@property (nonatomic, strong) NSString *shape;
-@property (nonatomic) int shapeFill;
-@property (nonatomic) int shapeColor;
+@property (nonatomic) int shape;
+@property (nonatomic) int fill;
+@property (nonatomic) int color;
+@property (nonatomic) int amount;
 
--(NSArray *)validShapes;
--(NSArray *)validFills;
--(NSArray *)validColors;
++(NSArray *)validShapes;
++(NSArray *)validFills;
++(NSArray *)validColors;
++(NSArray *)validAmounts;
+
 @end

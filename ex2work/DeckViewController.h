@@ -12,5 +12,7 @@
 @interface DeckViewController : UIViewController
 
 - (Deck *)createDeck; //Interface.
+-(NSUInteger)getMatchNumber; //Interface.
+- (void)cardSpecialUIButton:(UIButton *)cardButton forCard:(Card *)card; //interface.
 @end
 

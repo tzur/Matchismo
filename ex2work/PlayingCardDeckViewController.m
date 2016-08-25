@@ -13,4 +13,16 @@
 - (Deck *)createDeck{
     return [[PlayingCardDeck alloc] init];
 }
+-(NSUInteger)getMatchNumber{
+    return 2;
+}
+
+-(NSString *)cardsArrayToLabelString:(NSArray *)cards{
+    NSString *tempLabel = @"";
+    for (Card *card in cards){
+        tempLabel = [tempLabel stringByAppendingString:card.contents];
+    }
+    return tempLabel;
+}
+
 @end
